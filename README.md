@@ -55,7 +55,7 @@ Follow the steps below to set up the environment and run the tests locally:
 
 -
 
-## 👷 COLLABORATOR
+## 👷 Collaborator
 
 #### Name: Ronny Lima Ribeiro da Silva
 - LinkedIn: [ronnylrsd](https://www.linkedin.com/in/ronnylrsd/)

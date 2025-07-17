@@ -114,3 +114,10 @@ Feature: Calculate factorial numbers
         And I enter "150" in the input field
         And I click the "Calculate!" button
         Then I should see the result "5.713383956445855e+262" displayed
+
+    Scenario: TC21 - Data persistence after page reload
+        When I enter "6" in the input field
+        And I click the "Calculate!" button
+        Then I should see the result "720" displayed
+        When I reload the page
+        Then I should see the result "720" displayed

@@ -45,3 +45,7 @@ And('I press the {string} key', (key) => {
 When('I change the viewport to mobile', () => {
   cy.viewport('iphone-6');
 });
+
+When('I reload the page', () => {
+  cy.reload();
+});
