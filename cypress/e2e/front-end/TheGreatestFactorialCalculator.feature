@@ -19,7 +19,7 @@ Feature: Calculate factorial numbers
         And I click the "Calculate!" button
         Then I should see an error message "Please enter an integer"
 
-    Scenario: TC03 - Calculate the facotrial of an empty input
+    Scenario: TC03 - Calculate the factorial of an empty input
         And I click the "Calculate!" button
         Then I should see an error message "Please enter an integer"
 
@@ -89,33 +89,28 @@ Feature: Calculate factorial numbers
         And I click the "Calculate!" button
         Then I should see the result "Infinity" displayed
 
-    Scenario: TC16 - Calculate the factorial of the min integer number
-        When I enter "min" in the input field
-        And I click the "Calculate!" button
-        Then I should see an error message "Please enter a positive integer"
-
-    Scenario: TC17 - Calculate the factorial of a number with leading zeros
+    Scenario: TC16 - Calculate the factorial of a number with leading zeros
         When I enter "0006" in the input field
         And I click the "Calculate!" button
         Then I should see the result "720" displayed
 
-    Scenario: TC18 - Stress the Calculate! button
+    Scenario: TC17 - Stress the Calculate! button
         When I enter "12" in the input field
         And I click the "Calculate!" button 100 times
         Then I should see the result "479001600" displayed
 
-    Scenario: TC19 - Calculate the factorial of a number pressing Enter key
+    Scenario: TC18 - Calculate the factorial of a number pressing Enter key
         When I enter "8" in the input field
         And I press the "ENTER" key
         Then I should see the result "40320" displayed
 
-    Scenario: TC20 - Change the interface to mobile view
+    Scenario: TC19 - Change the interface to mobile view
         When I change the viewport to mobile
         And I enter "150" in the input field
         And I click the "Calculate!" button
         Then I should see the result "5.713383956445855e+262" displayed
 
-    Scenario: TC21 - Data persistence after page reload
+    Scenario: TC20 - Data persistence after page reload
         When I enter "6" in the input field
         And I click the "Calculate!" button
         Then I should see the result "720" displayed

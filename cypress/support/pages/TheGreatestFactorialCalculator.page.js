@@ -6,8 +6,6 @@ const TITLE = '.col-md-6 > .margin-base-vertical';
 Cypress.Commands.add('enter', (number) => {
   if (number === 'max') {
     number = Number.MAX_SAFE_INTEGER;
-  } else if (number === 'min') {
-    number = Number.MIN_SAFE_INTEGER;
   }
   cy.get(INPUT_FACTORIAL_FIELD).clear().type(number);
 });

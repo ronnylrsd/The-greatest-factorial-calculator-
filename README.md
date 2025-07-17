@@ -53,7 +53,12 @@ Follow the steps below to set up the environment and run the tests locally:
 
 ## 🔭 Observations
 
--
+- The core calculation logic for valid, positive integers is accurate and fast.
+- The user interface is clean, simple, and intuitive.
+- The application correctly handles large numbers, displaying results in scientific notation and eventually "Infinity" as expected.
+- Error messages for invalid formats (letters, decimals) work correctly.
+- The validation also confirmed correct handling of inputs with one or two decimal places.
+
 
 ## 👷 Collaborator
 
