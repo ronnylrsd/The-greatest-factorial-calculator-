@@ -1,6 +1,6 @@
 # Test E2E The greatest factorial calculator!
 
-<h3 align="center">Project with Cucumber and Cypress</h3>
+<h3>Project with Cucumber and Cypress</h3>
 
 ![Website screen](https://github.com/user-attachments/assets/f17086b0-0e6d-46c8-b6f6-bee66aca8ac1)
 
@@ -44,6 +44,9 @@ Follow the steps below to set up the environment and run the tests locally:
 - Run the `npx cypress open` command to open the cypress graphical interface or `npx cypress run` to run in the background.
 
 ## 📱 Screen Examples
+
+### Test Case Suite
+![Test Case Suite screen](https://github.com/user-attachments/assets/bdc7355c-f8f6-4b54-9914-948729ee7e23)
 
 ### Success in calculation
 ![Success in calculation screen](https://github.com/user-attachments/assets/566ac433-f818-4393-8874-fd52ca8645bd)
