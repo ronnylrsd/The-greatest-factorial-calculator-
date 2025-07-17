@@ -1,0 +1,19 @@
+{
+  "name": "the-greatest-factorial-calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/support/step-definitions/"
+  },
+  "devDependencies": {
+    "cypress": "^14.5.2",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
